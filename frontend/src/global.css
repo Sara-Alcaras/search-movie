@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 14px Roboto, sans-serif;
+    background-color: #ccd8d7;
+    -web-font-smoothing: antialiased ;
+}
+
+input, button, textarea {
+    font: 400 14px Roboto, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+form .fat {
+    background: #575b72;
+    width: 120px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 30px;
+
+    transition: 400ms;
+}
+
+form .fat:hover {
+    background-color: #8589a0;
+    text-decoration: none;   
+}
+
