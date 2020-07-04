@@ -23,10 +23,14 @@
 form button {
     background: none;
     border: none;
-    font-weight: bold; 
+    font-weight: 500;  
+}
+form button:hover {
+    text-decoration: none;
 }
 
 img {
     width: 100vh;
     
 }
+

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
-import movieImg from '../assets/movie.svg';
+import movieImg from '../../assets/movie.svg';
 
 export default function Head () {
     return (
