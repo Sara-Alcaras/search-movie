@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './styles.css';
 
@@ -7,16 +8,27 @@ import movieImg from '../../assets/movie.svg';
 export default function Head () {
     return (
       <div className="head-container">
-        <section className="form">
+        <section className="head">
       
-          <form>
-            <h1>Cadastre seu filme favorito e ajude pessoas a encontrarem filmes.</h1>
-            <button type="submit">+ Adicionar filmes</button>
+         <div className="menu-buttons">
+
+            <h1>Cadastre seu filme favorito e ajude pessoas </h1>
+            <Link to="/register">
+              <button type="button">
+                 + Adicionar filmes
+              </button>
+            </Link>
+      
+            <Link to="/register">
+              <button class="fat" type="button">
+                 Listar filmes
+              </button>
+            </Link>
             
-            <button class="fat" type="submit">Listar filmes</button>
-          </form>
+            </div>
 
         </section>
+
         <img src={movieImg} alt="Movies" />
       </div>
 

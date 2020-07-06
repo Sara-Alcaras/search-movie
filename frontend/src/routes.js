@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Head from './pages/Head';
-import Register from './pages/Head';
+import Register from './pages/Register';
 
 export default function Routes() {
     return (
