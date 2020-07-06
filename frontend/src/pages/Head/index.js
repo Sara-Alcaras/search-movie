@@ -12,19 +12,29 @@ export default function Head () {
       
          <div className="menu-buttons">
 
-            <h1>Cadastre seu filme favorito e ajude pessoas </h1>
+         <p>
+            Ficar em casa em períodos longos, não deve ser nada fácil.  
+        </p>
+        
+        <p>
+            Iremos catalogar <strong>filmes</strong> para tornar esse momento mais interessante.
+        </p>
+        
+         <p>
+            Comece clicando em ver filmes para ver os filmes cadastrados e contribua adicioando o seu filme favorito.
+        </p>
             <Link to="/register">
               <button type="button">
                  + Adicionar filmes
               </button>
             </Link>
       
-            <Link to="/register">
+            <Link to="">
               <button class="fat" type="button">
-                 Listar filmes
+                 Ver filmes
               </button>
             </Link>
-            
+
             </div>
 
         </section>
