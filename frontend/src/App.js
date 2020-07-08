@@ -1,11 +1,11 @@
 import React from 'react';
 import './global.css'
 
-import Head from './pages/Head';
+import Routes from './routes';
 
 function App() {
   return (
-    <Head/>
+    <Routes />
   );
 }
 

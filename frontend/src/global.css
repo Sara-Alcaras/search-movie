@@ -21,7 +21,7 @@ button {
     cursor: pointer;
 }
 
-form .fat {
+.menu-buttons .fat {
     background: #575b72;
     width: 120px;
     height: 40px;
@@ -31,8 +31,8 @@ form .fat {
     transition: 400ms;
 }
 
-form .fat:hover {
-    background-color: #8589a0;
-    text-decoration: none;   
+.menu-buttons .fat:hover {
+    background-color: rgb(141, 25, 52, 0.5);
 }
+
 

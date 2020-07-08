@@ -9,24 +9,34 @@
     justify-content: center;
 }
 
-.head-container section.form {
+.head-container section.head{
     width: 100%;
     max-width: 350px;
     margin-right: 30px;
 }
 
-.head-container section.form form {
+.head-container section.head menu-buttons {
     font-size: 18px;
     margin-bottom: 32px;   
 }
+p {
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.10px;
 
-form button {
+}
+
+.menu-buttons button {
     background: none;
     border: none;
-    font-weight: bold; 
+    font-weight: 500;  
+}
+.menu-buttons button:hover {
+    text-decoration: none;
 }
 
 img {
     width: 100vh;
     
 }
+
