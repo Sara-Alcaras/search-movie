@@ -11,10 +11,10 @@
 
 .register-container .content {
     width: 100%;
-    padding: 96px;
+    padding: 70px;
     background: #f0f0f5;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 10px;
 
     display: flex;
     justify-content: space-between;
@@ -23,17 +23,63 @@
 
 .register-container .content section {
     width: 100%;
-    max-width: 380px;
+    max-width: 395px;
 }
 
 .register-container .content section h1 {
-    margin: 64px 0 32px;
+    margin: 20px 0 18px;
     font-size: 32px;
+   
 }
 
 .register-container .content section p {
     color: #737380;
     font-size: 18px;
     line-height: 20px;
+}
+
+.register-container section button {
+    margin: 10px 10px 0 1px;
+    background: #575b72;
+    width: 100px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+
+    transition: 400ms;
+}
+
+.register-container section button:hover {
+    background-color: rgb(141, 25, 52, 0.5);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid rgb(141, 25, 52, 0.5);
+    outline: none;
+    font-size: 16px;
+    margin: 2px;
+}
+
+form button {
+    background: #575b72;
+    border: none;
+    width: 100px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 28px;
+    transition: 400ms;
+}
+
+form button:hover {
+    background-color: rgb(141, 25, 52, 0.5);
+    text-decoration: none;
+    
 }
 

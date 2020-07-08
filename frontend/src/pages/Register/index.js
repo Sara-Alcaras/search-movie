@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 import './styles.css';
+import '../../global.css';
 
 export default function Register() {
     return (
@@ -9,11 +10,20 @@ export default function Register() {
             <div className="content">
                 <section>
                     <h1> Cadastro</h1>
-                    <p>Cadastre seu filme favorito e ajude outras pessoas a sairem do tédio</p>
+                    <p>Cadastre seu filme favorito e ajude outras pessoas a sair do tédio</p>
                     
-                    <Link className="back-link" to="/register">
-                        Menu
+                    <Link to="/">
+                         <button type="button">
+                             Menu
+                        </button>
                     </Link>
+
+                    <Link to="/register">
+                         <button type="button">
+                             Listar filmes
+                        </button>
+                    </Link>
+                
                 </section>
 
                 <form>
@@ -21,10 +31,12 @@ export default function Register() {
                     <input type="autor" placeholder="Autor" />
                     <input placeholder="Classificação" />
                     <input placeholder="Duração" />
-                    <input type="url" placeholder="Link da capa" />
+                    <input type="url" placeholder="Link da imagem" />
+
+                    <button className="fat" type="submit">Cadastrar</button>
 
                 </form>
-                <button className="fat" type="submit">Cadastrar</button>
+                
             </div>
         </div>
     );
