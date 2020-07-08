@@ -21,7 +21,7 @@ export default function Head () {
         </p>
         
          <p>
-            Comece clicando em ver filmes para ver os filmes cadastrados e contribua adicioando o seu filme favorito.
+            Comece clicando em ver filmes para ver os filmes cadastrados e contribua adicionando o seu filme favorito.
         </p>
             <Link to="/register">
               <button type="button">
@@ -29,7 +29,7 @@ export default function Head () {
               </button>
             </Link>
       
-            <Link to="">
+            <Link to="/list">
               <button class="fat" type="button">
                  Ver filmes
               </button>

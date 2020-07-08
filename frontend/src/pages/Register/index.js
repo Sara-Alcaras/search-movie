@@ -18,7 +18,7 @@ export default function Register() {
                         </button>
                     </Link>
 
-                    <Link to="/register">
+                    <Link to="/list">
                          <button type="button">
                              Listar filmes
                         </button>
@@ -31,8 +31,7 @@ export default function Register() {
                     <input type="autor" placeholder="Autor" />
                     <input placeholder="Classificação" />
                     <input placeholder="Duração" />
-                    <input type="url" placeholder="Link da imagem" />
-
+                    
                     <button className="fat" type="submit">Cadastrar</button>
 
                 </form>
