@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
-import './styles.css';
+import './style.css';
 import '../../global.css';
 
 export default function Register() {

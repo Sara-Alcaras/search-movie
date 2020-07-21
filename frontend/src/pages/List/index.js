@@ -15,7 +15,7 @@ export default function List() {
               </button>
             </Link>
             <Link to="/">
-              <button type="button">
+              <button class="fat" type="button">
                  Menu
               </button>
             </Link>

@@ -11,7 +11,7 @@
 
 .register-container .content {
     width: 100%;
-    padding: 70px;
+    padding: 50px;
     background: #f0f0f5;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -27,9 +27,9 @@
 }
 
 .register-container .content section h1 {
-    margin: 20px 0 18px;
-    font-size: 32px;
-   
+    margin: -40px 0 10px;
+    font-size: 32px;  
+    
 }
 
 .register-container .content section p {
@@ -42,7 +42,7 @@
     margin: 10px 10px 0 1px;
     background: #575b72;
     width: 100px;
-    height: 32px;
+    height: 30px;
     border-radius: 6px;
     cursor: pointer;
     border: none;
@@ -64,16 +64,17 @@ form textarea {
     outline: none;
     font-size: 16px;
     margin: 2px;
+    align-items: center;
 }
 
 form button {
     background: #575b72;
     border: none;
     width: 100px;
-    height: 32px;
+    height: 30px;
     border-radius: 6px;
     cursor: pointer;
-    margin-top: 28px;
+    margin-top: 20px;
     transition: 400ms;
 }
 
